@@ -9,7 +9,6 @@ h1{
     border-style: solid;
     background-image: url(sunset.jpg);
     font-family: "Anton SC", sans-serif;
-    margin-right: 500px;
 }
 h4{
     border: 5px;
@@ -18,8 +17,6 @@ h4{
     border-color: black;
     background-image: url(moon.jpg);
     background-position: top;
-
-    margin-right: 1300px;
 }
 li{
     border: 5px;
@@ -27,7 +24,6 @@ li{
     border-color: black;
     background-color: black;
     color: white;
-    margin-right: 500px;
 }
 a{
     border: 2px;
