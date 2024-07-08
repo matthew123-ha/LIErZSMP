@@ -1,1 +1,38 @@
+body{
+    background-image: url("minecraft.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+}
+h1{
+    border: 5px;
+    border-style: solid;
+    background-image: url(sunset.jpg);
+    font-family: "Anton SC", sans-serif;
+    margin-right: 1300px;
+}
+h4{
+    border: 5px;
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.685);
+    border-color: black;
+    background-image: url(moon.jpg);
+    background-position: top;
 
+    margin-right: 1300px;
+}
+li{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    margin-right: 2000px;
+}
+a{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white
+}
