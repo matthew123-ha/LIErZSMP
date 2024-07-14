@@ -1,3 +1,3 @@
 # lierzcommunityserver.github.io
 
-#Also Flash Player games
+# Also Flash Player games
