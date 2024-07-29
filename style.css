@@ -1,25 +1,42 @@
 body{
-    background-color: yellow;
+    background: #100720;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 #Introduction{
-    font-family: "Anton SC", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    top: 300px;
-    
+    color: antiquewhite;
+    font-family: "Roboto Mono";
+    font-size: 17px;
 }
 button{
-    border: 1px;
-    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: #100720;
     color: white;
-    font-size: 50px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-    position:relative;
-    left: 1000px;
-    position: sticky;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }
-/*
+button::after{
+    content: '';
+    position: absolute;
+    height: 107%;
+    width: 102%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #008ccf, #e100ff);
+    z-index: -1;
+}
+button:hover{
+    transition: 2s;
+    z-index: 0;
+    box-shadow: 40px 0 100px #008ccf;
+    transform: scale(0.9) rotate(3deg);
+}
 h4{
     border: 5px;
     border-style: solid;
@@ -48,11 +65,12 @@ a{
     height: 50px;
     width: 100px;
     background-color: black;
-    position: fixed;
     color: white;
     font-size: 35px;
     float: left;
-    position: sticky;
+    position: relative;
+    position:fixed;
+    left: 0px;
 }
 #Box2{
     border: 1px solid;
