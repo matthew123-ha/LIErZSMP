@@ -1,0 +1,25 @@
+#Box1{
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    position: fixed;
+    color: white;
+    font-size: 35px;
+    float: left;
+    position: sticky;
+}
+#Box2{
+    border: 1px solid;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    position: sticky;
+    left: 2450px;
+    font-size: 25px;    
+    color: white;
+    float: right;
+}
+#Explanation{
+    padding: 0.1px;
+}
