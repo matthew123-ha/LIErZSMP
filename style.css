@@ -10,7 +10,7 @@ body{
     background-image: url(967800.jpg);
     justify-content: center;    
     display: flex;
-    background-size: cover;
+    background-size: fill;
 }
 #Introduction{
     color: antiquewhite;
