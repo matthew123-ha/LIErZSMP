@@ -1,0 +1,110 @@
+@font-face{
+    font-family: MinecraftBold;
+    src:url(MinecraftBold-nMK1.otf);
+}
+@font-face{
+    font-family: MinecraftRegular;
+    src:url(MinecraftRegular-Bmg3.otf);
+}
+body{
+    background-image: url(967800.jpg);
+    justify-content: center;    
+    display: flex;
+    background-size: cover;
+}
+#Introduction{
+    color: antiquewhite;
+    font-family: "MinecraftBold";
+    font-size: 17px;
+}
+button{
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: #100720;
+    color: white;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+button::after{
+    content: '';
+    position: absolute;
+    height: 107%;
+    width: 102%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #008ccf, #e100ff);
+    z-index: -1;
+}
+button:hover{
+    transition: 2s;
+    z-index: 0;
+    box-shadow: 40px 0 100px #008ccf;
+    transform: scale(0.9) rotate(3deg);
+}
+/*
+h4{
+    border: 5px;
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.685);
+    border-color: black;
+    background-image: url(moon.jpg);
+    background-position: top;
+}
+li{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+a{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white
+}
+    */
+#Box1{
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    float: top;
+    position: sticky;
+    position:fixed;
+    left: 0px;
+}
+#Box2{
+    height: 30px;
+    width: 100px; 
+    left: 2450px;   
+    color: white;
+    float: right;
+    position: sticky;
+    font-size: small;
+    border: 1px solid;
+    height: 380px;
+    width: 100px;
+    background-color: black;
+}
+a{
+    font-family: "MinecraftRegular";
+    color: white;
+}
+#Box3{
+    font-size: large;
+    top: 500px;
+    position: fixed;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#FontSizeBox2{
+    font-size: 20px;
+}
