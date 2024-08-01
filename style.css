@@ -1,12 +1,20 @@
+@font-face{
+    font-family: MinecraftBold;
+    src:url(MinecraftBold-nMK1.otf);
+}
+@font-face{
+    font-family: MinecraftRegular;
+    src:url(MinecraftRegular-Bmg3.otf);
+}
 body{
-    background: #100720;
-    justify-content: center;
-    align-items: center;
+    background-image: url(967800.jpg);
+    justify-content: center;    
     display: flex;
+    background-size: cover;
 }
 #Introduction{
     color: antiquewhite;
-    font-family: "Roboto Mono";
+    font-family: "MinecraftBold";
     font-size: 17px;
 }
 button{
@@ -68,28 +76,28 @@ a{
     background-color: black;
     color: white;
     font-size: 35px;
-    float: left;
-    position: relative;
+    float: top;
+    position: sticky;
     position:fixed;
     left: 0px;
 }
 #Box2{
-    border: 1px solid;
     height: 30px;
-    width: 100px;
-    background-color: black;
-    position: sticky;
-    left: 2450px;
-    font-size: 25px;    
+    width: 100px; 
+    left: 2450px;   
     color: white;
     float: right;
+    position: sticky;
     font-family: "Press Start 2P", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: small;
+    border: 1px solid;
+    height: 260px;
+    width: 200px;
+    background-color: black;
 }
 a{
+    font-family: "MinecraftRegular";
     color: white;
-    font-family: "Press Start 2P", system-ui;
-    font-size: large;
 }
 #Box3{
     font-size: large;
@@ -97,4 +105,7 @@ a{
     position: fixed;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#FontSizeBox2   {
+    font-size: 20px;
 }
