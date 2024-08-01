@@ -6,6 +6,8 @@
     font-family: MinecraftRegular;
     src:url(MinecraftRegular-Bmg3.otf);
 }
+    justify-content: center;    
+    display: flex;
 #Box1{
     border: 1px solid;
     height: 50px;
